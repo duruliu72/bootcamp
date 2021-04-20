@@ -1,0 +1,163 @@
+.header-section .navbar-brand{
+    color: #FFFFFF;
+}
+.home-section{
+    background: url(../img/pc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ min-height: 100vh;
+ position: relative;
+}
+.home-section .overlay{
+    background:rgba(0,0,0,.8);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+.home__content{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 160px;
+}
+.bootcamp-item{
+    border: 1px solid #ccc;
+}
+.loc span{
+    background:rgba(0,0,0,.8);
+    color:#ffffff;
+    display:inline-block;
+    padding:5px;
+}
+.bootcamp-headingtxt{
+    position: relative;
+}
+.bootcamp-headingtxt span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:green;
+    font-size:17px;
+    display:inline-block;
+    padding:5px;
+    color:#ffffff;
+}
+.bootcamp-course h2{
+    background:#DC3545;
+    color:#FFFFFF;
+    padding:5px 10px;
+    font-size: 18px;
+}
+.addcourse_title{
+    color:#DC3545;
+}
+/* ================  */
+.bootcamp-course{
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+.bootcamp-details__cost{
+    color:#DC3545;
+}
+.bootcamp-details-heading_ul{
+    list-style: none;
+    padding: 0;
+}
+.bootcamp-details-heading_ul li{
+    border: 1px solid #ccc;
+    padding: 7px 5px;
+}
+.bootcamp-ratting {
+  text-align: center;
+  position: relative;
+}
+.bootcamp-ratting span {
+    position:absolute;
+    padding:5px;
+    background:#00BB45;
+    color: #FFFFFF;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    left: 20%;
+    top:5px;
+    font-size:20px;
+}
+.bootcamp-review{
+    background:#333940;
+    color:#ffffff;
+    padding: 7px 5px;
+    line-height: 20px;
+}
+.bootcamp-review p{
+    margin:0%;
+}
+.bootcamp-website{
+    background:#6B747D;
+    color:#ffffff;
+    padding: 7px 5px;
+}
+.bootcamp-website p{
+    margin:0px;
+}
+.bootcamp-website p a{
+    color:#ffffff;
+    padding: 7px 5px;
+}
+
+
+/* Side Bar Menu  */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* background-color: #efe6e6; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 3px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .sidenav >ul{
+    margin-top: 30px;
+  }
+  .sidenav ul{
+      list-style: none;
+  }
+  .addcourse-section{
+      width:768px;
+      margin:0 auto;
+  }
